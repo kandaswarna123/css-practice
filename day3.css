@@ -1,0 +1,57 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+
+
+.parent1{
+    width: 400px;
+    height: 500px;
+    border:10px solid black;
+    margin: 50px;
+    position: relative;
+    
+}
+
+.parent2{
+    width: 300px;
+    height: 700px;
+    border:10px solid black;
+    margin: 50px;
+}
+.child1{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    /* position: absolute; */
+
+    /* the position relative is in parent1 thats y the chaild1,2 two with absolute going thier parent1 */
+    /* if you give position absolute then it will be at the top left corner of the parent with the green one  */
+  
+    
+}
+.child2{
+    width: 50px;
+    height: 50px;
+    background-color:blue;
+    /* margin-top: 10px; */
+    position: fixed;
+    /*if you give top and list 0px then it will be at the top left corner of the parent */
+    /* if you dont give top and left then it will be at the its original position */
+    top: 500px;
+    left: 400px;
+    /* z-index: 1; */
+
+    
+}
+.child3{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    /* position: absolute; */
+  
+ 
+
+    
+}

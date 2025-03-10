@@ -1,0 +1,71 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.one{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    /* margin: 200px; */
+    transition: .3s;
+    font-size:20px ;
+}
+/* rotation */
+/* scaling-increasing the size */
+/* translating moving the elements  from one place other*/
+/* skewing-pulling it both the sides */
+/* .one:hover{
+    /* transform: rotatez(360deg); */
+    /* transform: scalex(2) ; */
+    /* transform: translate(100px,100px); */
+    /* transform:skewX(30deg) ; */
+    /* margin-top: 100px;
+    margin-left: 100px; }*/
+
+
+.two{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+.card{
+    width: 350px;
+    /* height: 500px; */
+    background-color: gray;
+    border:1px solid lightgrey;
+    margin-left: 500px;
+    transition: .2s;
+}
+ .card:hover{
+        transform: translateY(20px);
+ }
+
+ 
+.card-img{
+    width: 100%;
+    height: 300px;
+    background-color: red;
+    /* what ever go outside of the box hide it */
+    overflow:hidden ;
+}
+
+.img-source{
+    width: 100%;
+    transition: 3s;
+}
+.img-source:hover{
+    transform: scale(1.3);
+}
+
+.details{
+    width: 100%;
+    padding: 30px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}

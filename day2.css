@@ -1,0 +1,89 @@
+/* body{
+
+    margin: 0px;
+}
+h1{
+    margin: 0px;
+} */
+
+*{
+    margin: 0px;
+    padding: 0px; 
+}
+
+
+
+
+
+.products{
+    width: 100%;
+    height:400px ;
+    background-color: grey;
+    display: flex;
+    justify-content: center;/* flex-end it willmove to end  ,space-around it will give spaces
+    /* flex-direction: row-reverse; */
+    align-items: center;
+    column-gap: 50px;
+    /* flex-wrap: wrap; it shows that not to reduce the box size */
+    /* row-gap: 50px;
+    align-content: 20px; when ever wraping happens the little bit gap will be createit will be reduced by this */
+
+}
+.child{
+    width: 100px;
+    height: 100px;
+
+
+}
+.a{
+    background-color: green;
+}
+.b{
+    background-color:black;
+}
+.c{
+    background-color:red;
+}
+.d{
+    background-color:magenta;
+}
+
+/* 
+.one{
+    width: 100px;
+    height: 300px;
+    background-color: blueviolet;
+    margin: 30px;
+
+} */
+
+
+
+/* .prod{
+    width: 20%;
+    height: 300px;
+    background-color: yellow;
+    display: inline-block;
+    font-size: 50px;
+    margin-left: 40px;
+    margin-top: 30px;
+} */
+
+
+ 
+
+
+
+
+
+/* .one{
+    height:300px;
+width: 300px;
+     /* if you donot give any width it takes full width of colour  */ 
+    /* background-color: red;
+}
+.child{
+    height: 100px;
+    width: 100%;
+    background-color: yellow;
+} */ 
